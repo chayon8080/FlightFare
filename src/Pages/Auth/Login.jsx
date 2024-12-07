@@ -45,7 +45,7 @@ const Login = () => {
             await signOut(auth);
             alert("Logout successful!");
             setUser(null);
-        } catch (err) {
+        } catch  {
             toast.error("Failed to logout. Try again.");
         }
     };
